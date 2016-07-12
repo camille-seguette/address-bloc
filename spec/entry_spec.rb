@@ -5,13 +5,11 @@ RSpec.describe Entry do
         let(:entry) { Entry.new('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com')}
 
         it "responds to name" do
-            expect(entry).to repond_to(:name)
+            expect(entry).to respond_to(:name)
         end
 
         it "reports its name" do
             expect(entry.name).to eq('Ada Lovelace')
-        end
-
         end
 
         it "responds to phone_number" do

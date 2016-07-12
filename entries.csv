@@ -1,14 +1,3 @@
-require_relative 'controllers/menu_controller'
-
-menu = MenuController.new
-
-system "clear"
-puts "Welcome to AddressBloc!"
-
-menu.main_menu
-
-entries.csv
-
 name,phone_number,email
 Bill,555-555-4854,bill@blocmail.com
 Bob,555-555-5415,bob@blocmail.com
